@@ -1,0 +1,72 @@
+[
+  {
+    "id": "01",
+    "question": "Which CSS Property allows you to set multiple list properties at once?",
+    "options": [
+      "List-Style-Type",
+      "List-Style",
+      "List-Sytle-Image",
+      "None of the above"
+    ],
+    "answer": "List-Style"
+  },
+  {
+    "id": "02",
+    "question": "What type of CSS is generally recommended for designing large web pages?",
+    "options": ["Inline", "Internal", "External", "None of the above"],
+    "answer": "External"
+  },
+  {
+    "id": "03",
+    "question": "Which HTML tag is used to declare internal CSS?",
+    "options": ["<style>", "<link>", "<script>", "None of the above"],
+    "answer": "<style>"
+  },
+  {
+    "id": "04",
+    "question": "How can we select an element with a specific ID in CSS?",
+    "options": ["#", ".", "^", "None of the above"],
+    "answer": "#"
+  },
+  {
+    "id": "05",
+    "question": "How can we select an element with a specific Class in CSS?",
+    "options": ["#", ".", "^", "None of the above"],
+    "answer": "."
+  },
+  {
+    "id": "06",
+    "question": "How can we specify the spacing between each letter in a text in CSS?",
+    "options": ["alpha-spacing", "letter-spacing", "character-spacing", "None of the above"],
+    "answer": "letter-spacing"
+  },
+  {
+    "id": "07",
+    "question": "How can we set the maximum width of the elements content box using CSS?",
+    "options": [
+      "height property",
+      "max-height property",
+      "max-width property",
+      "None of the above"
+    ],
+    "answer": "max-width property"
+  },
+  {
+    "id": "08",
+    "question": "Which of the following property specifies the look and design of an outline?",
+    "options": ["outline-style", "outline", "outline-foot", "None of the above"],
+    "answer": "outline-style"
+  },
+  {
+    "id": "09",
+    "question": "Which of the following are parts of the CSS box model?",
+    "options": ["Margins", "Borders", "Padding", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "id": "10",
+    "question": "Which of the following properties is used to align text in CSS?",
+    "options": ["text-align", "text-alignment", "text", "text-position"],
+    "answer": "text-align"
+  }
+]

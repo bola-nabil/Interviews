@@ -1,0 +1,82 @@
+[
+  {
+    "id": "01",
+    "question": "Which of the following keywords is used to define a variable in Javascript?",
+    "options": [
+      "var",
+      "let",
+      "Both A and B",
+      "None of the above"
+    ],
+    "answer": "Both A and B"
+  },
+  {
+    "id": "02",
+    "question": "Which of the following methods is used to access HTML elements using Javascript?",
+    "options": ["getElementbyId()", "getElementsByClassName()", "Both A and B", "None of the above"],
+    "answer": "Both A and B"
+  },
+  {
+    "id": "03",
+    "question": "Which of the following methods can be used to display data in some form using Javascript?",
+    "options": ["document.write()", "console.log()", "window.alert()", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "id": "04",
+    "question": "How can a datatype be declared to be a constant type?",
+    "options": ["const", "var", "let", "constant"],
+    "answer": "const"
+  },
+  {
+    "id": "05",
+    "question": "Which of the following are closures in Javascript?",
+    "options": ["Variables", "Functions", "Objects", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "id": "06",
+    "question": "How to stop an interval timer in Javascript?",
+    "options": [
+      "clearInterval",
+      "clearTime",
+      "intervalOver",
+      "None of the above"
+    ],
+    "answer": "clearInterval"
+  },
+  {
+    "id": "07",
+    "question": "How do we write a comment in javascript?",
+    "options": [
+      "/**/",
+      "//",
+      "#",
+      "$$"
+    ],
+    "answer": "//"
+  },
+  {
+    "id": "08",
+    "question": "Which of the following are not server-side Javascript objects?",
+    "options": [
+      "Date",
+      "FileUpload",
+      "Function",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": "09",
+    "question": "Which function is used to serialize an object into a JSON string in Javascript?",
+    "options": ["stringify()", "parse()", "convert()", "None of the above"],
+    "answer": "stringify()"
+  },
+  {
+    "id": "10",
+    "question": "What keyword is used to declare an asynchronous function in Javascript?",
+    "options": ["async", "await", "setTimeout", "text-position"],
+    "answer": "async"
+  }
+]
