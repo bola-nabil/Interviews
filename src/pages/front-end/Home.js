@@ -8,21 +8,25 @@ import '../../css/home.css';
 function Home() {
     const interviewsInfo = [
       {
-        imageUrl: "html.jpg",
+        imageUrl: "../../../public/images/html.jpg",
         title: "Html Interview",
         btnUrl: "html",
       },
       {
-        imageUrl: "css.jpg",
+        imageUrl: "../../../public/images/css.jpg",
         title: "Css Interview",
         btnUrl: "css",
       },
       {
-        imageUrl: "javascript.jpg",
+        imageUrl: "../../../public/images/javascript.jpg",
         title: "Javascript Interview",
         btnUrl: "javascript",
       },
-      { imageUrl: "react.jpg", title: "React Interview", btnUrl: "react" },
+      {
+        imageUrl: "../../../public/images/react.jpg",
+        title: "React Interview",
+        btnUrl: "react",
+      },
     ];
     return (
       <>
