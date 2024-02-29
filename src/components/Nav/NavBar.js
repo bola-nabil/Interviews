@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 function NavBar() {
-  const [activeItem, setActiveItem] = useState("home");
+  const [activeItem, setActiveItem] = useState("Interviews");
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -29,7 +29,7 @@ function NavBar() {
           <Nav className="link-control me-auto ps-5">
             <Link
               to="/"
-              className={`nav-home ps-3 ${activeItem === "home" ? "active-home" : ""}`}
+              className={`nav-home ps-3 ${activeItem === "Interviews" ? "active-home" : ""}`}
               onClick={() => {
                 handleItemClick("home");
               }}
