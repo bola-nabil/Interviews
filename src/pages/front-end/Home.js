@@ -8,7 +8,7 @@ import '../../css/home.css';
 function Home() {
     const interviewsInfo = [
       {
-        imageUrl: "../../../public/images/html.jpg",
+        imageUrl: "html.jpg",
         title: "Html Interview",
         btnUrl: "html",
       },
@@ -32,18 +32,15 @@ function Home() {
       <>
         <div className="content home-page row-item">
           <Container>
-            <Row
-              sm="2"
-              lg="3"
-            >
+            <Row sm="2" lg="3">
               {interviewsInfo.map((card, index) => (
                 <Col
                   key={index}
                   className="mt-4 d-flex justify-content-center align-items-center col-item"
                 >
-                  <Card style={{ width: "20rem"}} className="card-home">
+                  <Card style={{ width: "20rem" }} className="card-home">
                     <Card.Img
-                      src={`images/${card.imageUrl}`}
+                      src={`../../../public/images/${card.imageUrl}`}
                       alt="not found"
                       variant="top"
                       className="img-home"
