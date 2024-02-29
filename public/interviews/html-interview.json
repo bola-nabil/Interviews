@@ -1,0 +1,97 @@
+[
+  {
+    "id": "01",
+    "question": "What does the abbreviation HTML stand for?",
+    "options": ["HyperText Markup Language", "HighText Markup Language", "HyperText Markdown Language", "None of the above"],
+    "answer": "HyperText Markup Language"
+  },
+  {
+    "id": "02",
+    "question": "How many sizes of headers are available in HTML by default?",
+    "options": [
+      "5",
+      "1",
+      "3",
+      "6"
+    ],
+    "answer": "6"
+  },
+  {
+    "id": "03",
+    "question": "How to create an ordered list in HTML?",
+    "options": [
+      "<ul>",
+      "<ol>",
+      "<href>",
+      "<b>"
+    ],
+    "answer": "<ol>"
+  },
+  {
+    "id": "04",
+    "question": "We enclose HTML tags within?",
+    "options": [
+      "[]",
+      "< >",
+      "!!",
+      "None of the above"
+    ],
+    "answer": "< >"
+  },
+  {
+    "id": "05",
+    "question": "How to display preformatted text in HTML?",
+    "options": [
+      "<p>",
+      "<pre>",
+      "<hr>",
+      "All of the above"
+    ],
+    "answer": "<pre>"
+  },
+  {
+    "id": "06",
+    "question": "Which of the following tags doesn’t require a closing tag?",
+    "options": ["<br>", "<hr>", "Both A and B", "None of the above"],
+    "answer": "Both A and B"
+  },
+  {
+    "id": "07",
+    "question": "What are the attributes used to change the size of an image?",
+    "options": ["Width and height", "Big and Small", "Top and bottom", "None of the above"],
+    "answer": "Width and height"
+  },
+  {
+    "id": "08",
+    "question": "Which attribute is used to provide a unique name to an HTML element?",
+    "options": [
+      "id",
+      "class",
+      "type",
+      "None of the above"
+    ],
+    "answer": "id"
+  },
+  {
+    "id": "09",
+    "question": "What tag is used to render an image on a webpage?",
+    "options": [
+      "img",
+      "src",
+      "image",
+      "None of the above"
+    ],
+    "answer": "img"
+  },
+  {
+    "id": "10",
+    "question": "What is the correct syntax to write an HTML comment?",
+    "options": [
+      "<!-- Comment -->",
+      "// Comment",
+      "# Comment",
+      "/* Comment */"
+    ],
+    "answer": "<!-- Comment -->"
+  }
+]

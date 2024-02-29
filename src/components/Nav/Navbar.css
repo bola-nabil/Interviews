@@ -1,0 +1,91 @@
+.nav {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 4px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #676767;
+}
+
+.nav-home {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-home:hover {
+    color: #ccc;
+}
+
+.nav:hover {
+    color: red;
+    border-bottom-color: red;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.active{
+    color: red;
+}
+
+.active-home {
+    color: red;
+}
+
+.title {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.title:hover {
+    color: red;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.toggle{
+    background-color: white;
+    color: black;
+    width: 55px;
+    padding: 5px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.toggle:hover {
+    color: red;
+}
+
+@media (min-width: 1200px) {
+    .canvas-control {
+        display: none;
+    }
+}
+
+.link-control {
+    display: none;
+}
+
+@media (min-width: 1200px) {
+    .link-control {
+        display: flex;
+    }
+}
+
+.hide {
+    display: none;
+}

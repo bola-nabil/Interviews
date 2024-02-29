@@ -1,0 +1,91 @@
+body {
+    position: relative;
+}
+
+section {
+    background-image: url("../../public/images/interviewlg.jpg");
+    background-size: cover;
+}
+
+@media (max-width: 1200px) {
+    section {
+        background-image: url("../../public/images/interviewmd.jpg");
+    }
+}
+
+@media (max-width: 600px) {
+    section {
+        background-image: url("../../public/images/interviewsm.jpg");
+    }
+}
+
+.home-page {
+    background-image: url("../../public/images/homeImage.jpg");
+    background-size: cover;
+}
+
+.footer-design {
+    position: relative;
+    height: 520px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 40px;
+    position: absolute;
+    bottom: 0;
+}
+
+footer:hover {
+    color: red;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+
+@media (min-width: 1200px) {
+    .footer-design {
+        height: 520px;
+    }
+}
+
+.row-item {
+    height: calc(93vh + 6px);
+}
+
+@media (min-width: 1200px) {
+    .row-item {
+        height: calc(94vh + 3px);
+    }
+}
+
+.btn-design {
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.light {
+    background-color: white;
+}
+
+.success {
+    background-color: green;
+}
+
+.danger {
+    background-color: red;
+}
+
+.success,
+.danger {
+    color: white;
+}
