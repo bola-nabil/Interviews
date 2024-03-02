@@ -54,7 +54,7 @@ footer:hover {
 }
 
 .row-item {
-    height: calc(93vh + 6px);
+    height: calc(93vh + 7px);
 }
 
 @media (min-width: 1200px) {
