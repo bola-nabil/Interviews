@@ -20,7 +20,7 @@ function NavBar() {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Link to="Interviews" className="title">
+          <Link to="/" className="title">
             Interviews
           </Link>
           <button onClick={handleShow} className="toggle canvas-control">
