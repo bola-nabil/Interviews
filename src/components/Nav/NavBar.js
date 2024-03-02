@@ -20,7 +20,7 @@ function NavBar() {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Link to="/" className="title">
+          <Link to="Interviews" className="title">
             Interviews
           </Link>
           <button onClick={handleShow} className="toggle canvas-control">
@@ -28,8 +28,10 @@ function NavBar() {
           </button>
           <Nav className="link-control me-auto ps-5">
             <Link
-              to="/"
-              className={`nav-home ps-3 ${activeItem === "Interviews" ? "active-home" : ""}`}
+              to="Interviews"
+              className={`nav-home ps-3 ${
+                activeItem === "Interviews" ? "active-home" : ""
+              }`}
               onClick={() => {
                 handleItemClick("home");
               }}
@@ -37,8 +39,10 @@ function NavBar() {
               Home
             </Link>
             <Link
-              to="/html"
-              className={`nav-home ps-3 ${activeItem === "html" ? "active-home" : ""}`}
+              to="Interviews/html"
+              className={`nav-home ps-3 ${
+                activeItem === "html" ? "active-home" : ""
+              }`}
               onClick={() => {
                 handleItemClick("html");
               }}
@@ -46,8 +50,10 @@ function NavBar() {
               Html
             </Link>
             <Link
-              to="/css"
-              className={`nav-home ps-3 ${activeItem === "css" ? "active-home" : ""}`}
+              to="Interviews/css"
+              className={`nav-home ps-3 ${
+                activeItem === "css" ? "active-home" : ""
+              }`}
               onClick={() => {
                 handleItemClick("css");
               }}
@@ -55,7 +61,7 @@ function NavBar() {
               Css
             </Link>
             <Link
-              to="/javascript"
+              to="Interviews/javascript"
               className={`nav-home ps-3 ${
                 activeItem === "javascript" ? "active-home" : ""
               }`}
@@ -66,8 +72,10 @@ function NavBar() {
               JavaScript
             </Link>
             <Link
-              to="/react"
-              className={`nav-home ps-3 ${activeItem === "react" ? "active-home" : ""}`}
+              to="Interviews/react"
+              className={`nav-home ps-3 ${
+                activeItem === "react" ? "active-home" : ""
+              }`}
               onClick={() => {
                 handleItemClick("react");
               }}
@@ -90,7 +98,7 @@ function NavBar() {
           <Offcanvas.Body className="bg-dark">
             <Nav className="justify-content-end flex-grow-1 pe-3 text-light">
               <Link
-                to="/"
+                to="Interviews"
                 className={`nav ${activeItem === "home" ? "active" : ""}`}
                 onClick={() => {
                   handleItemClick("home");
@@ -100,7 +108,7 @@ function NavBar() {
                 Home
               </Link>
               <Link
-                to="/html"
+                to="Interviews/html"
                 className={`nav ${activeItem === "html" ? "active" : ""}`}
                 onClick={() => {
                   handleItemClick("html");
@@ -110,7 +118,7 @@ function NavBar() {
                 Html
               </Link>
               <Link
-                to="/css"
+                to="Interviews/css"
                 className={`nav ${activeItem === "css" ? "active" : ""}`}
                 onClick={() => {
                   handleItemClick("css");
@@ -120,7 +128,7 @@ function NavBar() {
                 Css
               </Link>
               <Link
-                to="/javascript"
+                to="Interviews/javascript"
                 className={`nav ${activeItem === "javascript" ? "active" : ""}`}
                 onClick={() => {
                   handleItemClick("javascript");
@@ -130,7 +138,7 @@ function NavBar() {
                 JavaScript
               </Link>
               <Link
-                to="/react"
+                to="Interviews/react"
                 className={`nav ${activeItem === "react" ? "active" : ""}`}
                 onClick={() => {
                   handleItemClick("react");
