@@ -12,11 +12,11 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/html" element={<HtmlInterview />} />
-        <Route path="/css" element={<CssInterview />} />
-        <Route path="/javascript" element={<JavaScriptInterview />} />
-        <Route path="/react" element={<ReactInterview />} />
+        <Route path="Interviews" element={<Home />} />
+        <Route path="Interviews/html" element={<HtmlInterview />} />
+        <Route path="Interviews/css" element={<CssInterview />} />
+        <Route path="Interviews/javascript" element={<JavaScriptInterview />} />
+        <Route path="Interviews/react" element={<ReactInterview />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
