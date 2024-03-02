@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import '../../css/home.css';
+import { Link } from "react-router-dom";
 
 function Home() {
     const interviewsInfo = [
@@ -13,17 +14,17 @@ function Home() {
         btnUrl: "html",
       },
       {
-        imageUrl: "../../../public/images/css.jpg",
+        imageUrl: "css.jpg",
         title: "Css Interview",
         btnUrl: "css",
       },
       {
-        imageUrl: "../../../public/images/javascript.jpg",
+        imageUrl: "javascript.jpg",
         title: "Javascript Interview",
         btnUrl: "javascript",
       },
       {
-        imageUrl: "../../../public/images/react.jpg",
+        imageUrl: "react.jpg",
         title: "React Interview",
         btnUrl: "react",
       },
@@ -40,7 +41,7 @@ function Home() {
                 >
                   <Card style={{ width: "20rem" }} className="card-home">
                     <Card.Img
-                      src={`../../../public/images/${card.imageUrl}`}
+                      src={require(`../../../public/images/${card.imageUrl}`)}
                       alt="not found"
                       variant="top"
                       className="img-home"
@@ -49,7 +50,9 @@ function Home() {
                       <Card.Title>{card.title}</Card.Title>
                       <hr />
                       <div className="d-flex justify-content-center">
-                        <Button href={card.btnUrl}>Start Interview</Button>
+                        <Link to={card.btnUrl}>
+                            <Button>Start Interview</Button>
+                        </Link>
                       </div>
                     </Card.Body>
                   </Card>
