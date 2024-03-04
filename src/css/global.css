@@ -1,5 +1,6 @@
 body {
     position: relative;
+    background-color: #eeeeee;
 }
 
 section {
@@ -22,6 +23,12 @@ section {
 .home-page {
     background-image: url("../../public/images/homeImage.jpg");
     background-size: cover;
+}
+
+@media (max-width: 600px) {
+    .home-page {
+        background-image: none;
+    }
 }
 
 .footer-design {
@@ -54,12 +61,12 @@ footer:hover {
 }
 
 .row-item {
-    height: calc(93vh + 7px);
+    height: calc(91vh);
 }
 
 @media (min-width: 1200px) {
     .row-item {
-        height: calc(94vh + 3px);
+        height: calc(91vh + 5px);
     }
 }
 
