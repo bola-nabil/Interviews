@@ -89,3 +89,12 @@
 .hide {
     display: none;
 }
+
+.nav-size {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.links-move {
+    padding-left: 100px;
+}

@@ -18,22 +18,29 @@ function NavBar() {
 
   return (
     <>
-      <Navbar bg="dark" data-bs-theme="dark">
+      <Navbar bg="dark" data-bs-theme="dark"  className="nav-size">
         <Container>
-          <Link to="/" className="title">
+          <Link to="/"
+            className={`title ${
+                activeItem === "Interviews" ? "active-home" : ""
+              }`}
+              onClick={() => {
+                handleItemClick("Interviews");
+              }}
+          >
             Interviews
           </Link>
           <button onClick={handleShow} className="toggle canvas-control">
             <span className="menu-icon">&#9776;</span>
           </button>
-          <Nav className="link-control me-auto ps-5">
+          <Nav className="link-control me-auto links-move">
             <Link
               to="/"
-              className={`nav-home ps-3 ${
+              className={`nav-home ps-5 ${
                 activeItem === "Interviews" ? "active-home" : ""
               }`}
               onClick={() => {
-                handleItemClick("home");
+                handleItemClick("Interviews");
               }}
             >
               Home
