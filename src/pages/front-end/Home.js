@@ -37,7 +37,7 @@ function Home() {
               {interviewsInfo.map((card, index) => (
                 <Col
                   key={index}
-                  className="mt-4 d-flex justify-content-center align-items-center col-item"
+                  className="move-item d-flex justify-content-center align-items-center col-item"
                 >
                   <Card style={{ width: "20rem" }} className="card-home">
                     <Card.Img
