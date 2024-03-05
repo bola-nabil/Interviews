@@ -17,11 +17,13 @@ function Result() {
           style={{ display: `${showResult ? "block" : "none"}` }}
         >
           <Container>
-            <div className="row vh-100 align-items-center justify-content-center">
+            <div className="row row-item align-items-center justify-content-center">
               <div className="col-lg-6">
                 <div
                   className={`text-light text-center p-5 rounded ${
-                    marks > (quizData.length * 5) / 2 ? "bg-success" : "bg-danger"
+                    marks > (quizData.length * 5) / 2
+                      ? "bg-success"
+                      : "bg-danger"
                   }`}
                 >
                   <h1 className="mb-2 fw-bold">
@@ -30,7 +32,12 @@ function Result() {
                   <h3 className="mb-3 fw-bold">
                     Your score is {marks} out of {quizData.length * 5}
                   </h3>
-                  <button onClick={handleReset} className="btn btn-light text-bold">Start Again</button>
+                  <button
+                    onClick={handleReset}
+                    className="btn btn-light text-bold"
+                  >
+                    Start Again
+                  </button>
                 </div>
               </div>
             </div>
